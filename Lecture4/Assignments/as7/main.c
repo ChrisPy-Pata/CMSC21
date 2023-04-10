@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// #define M 9 (row) macro
+// #define N 9 (column) macro
 int main()
 {
     // letter A
@@ -19,16 +20,22 @@ int main()
 
     // letter B
     printf("\nThe Adjacency Matrix is: \n\n");
-    printf("a\tb\t[c]\t[d]\te \tf\tg\th\ti\n");
+    printf("\ta\tb\t[c]\t[d]\te \tf\tg\th\ti\n");
 
     //row
-    for (i=0;i<m;i++)
-    {   //column
+    for (i=0;i<m;i++){
+        // column
         for(j = 0; j < n; j++){
-            printf("%d\t", road_networks[i][j]);
-        }
+            if (j == 2 || j == 3){ // execute if the value of j is 2 or 3
+                printf("\t[%d]", road_networks[i][j]); // put the elements inside a bracket
+            }
+            else{ //execute if the value of j is neither 2 or 3
+                printf("\t%d", road_networks[i][j]);
+            }
+        } // print a new line
         printf("\n");
     }
+
 
     // letter C
 
