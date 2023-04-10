@@ -8,6 +8,7 @@ int main()
     int m = 9, n = 9, i, j;
     // declare and initialize the multidimensional boolean array, road_networks.
     _Bool road_networks[9][9] = {
+   //a,b,c,d,e,f,g,h,i
     {1,1,0,0,0,1,0,0,0},
     {1,1,1,0,0,0,0,0,0},
     {0,1,1,0,1,1,0,0,1},
