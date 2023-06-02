@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1685684322 source:c:\users\christalie pategara\desktop\pategara-cmsc 21-assignment-function-no.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdbool.h>
+
