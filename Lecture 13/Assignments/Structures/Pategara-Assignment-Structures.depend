@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1686566848 source:c:\users\christalie pategara\desktop\pategara-assignment-structures\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
